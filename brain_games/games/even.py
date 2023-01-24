@@ -9,7 +9,7 @@ def is_even(num):
 
 
 def get_question_answer():
-    rnd_num = randint(0, 100)
+    rnd_num = randint(1, 100)
     correct_answer = "yes" if is_even(rnd_num) else "no"
     question = f"Question: {rnd_num}"
     return question, correct_answer

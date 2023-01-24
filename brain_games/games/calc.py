@@ -7,8 +7,8 @@ operators = ['*', '-', '+']
 
 
 def get_question_answer():
-    first_operand = randint(0, 100)
-    second_operand = randint(0, 100)
+    first_operand = randint(1, 100)
+    second_operand = randint(1, 100)
     operator = choice(operators)
     question = f"Question: {first_operand} {operator} {second_operand}"
 
